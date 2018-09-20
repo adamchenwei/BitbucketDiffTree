@@ -15,6 +15,7 @@
 
 		function startObserving(callback) {
 			// select the target node
+			console.log('------ start stuff')
 			var targets = document.querySelectorAll('#pr-tab-content');
 			
 			// create an observer instance
